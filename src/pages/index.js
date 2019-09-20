@@ -12,8 +12,23 @@ const ImageContainer = styled.div`
   padding-top: 2rem;
 `;
 
+const TextContainer = styled.div`
+  color: yellow;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+`;
+
 export default () => (
-  <ImageContainer>
-    <Image />
-  </ImageContainer>
+  <>
+    <ImageContainer>
+      <Image />
+    </ImageContainer>
+    <TextContainer>
+      <p>
+        Welcome to the British arm of Shell Must Fall, a campaign of mass civil
+        disobediance against Fossil Capital
+      </p>
+    </TextContainer>
+  </>
 );
