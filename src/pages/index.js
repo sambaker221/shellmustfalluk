@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../components/image";
+import Layout from "../components/layout";
 
 import "semantic-ui-css/semantic.min.css";
 import "./index.css";
@@ -15,20 +16,21 @@ const ImageContainer = styled.div`
 const TextContainer = styled.div`
   color: yellow;
   padding: 1rem;
+  padding-top: 2rem;
   margin: 0 auto;
   text-align: center;
 `;
 
 export default () => (
-  <>
+  <Layout>
     <ImageContainer>
       <Image />
     </ImageContainer>
     <TextContainer>
       <p>
         Welcome to the British arm of Shell Must Fall, a campaign of mass civil
-        disobediance against Fossil Capital
+        disobediance against Fossil Capital.
       </p>
     </TextContainer>
-  </>
+  </Layout>
 );
