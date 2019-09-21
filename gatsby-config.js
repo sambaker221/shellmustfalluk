@@ -5,8 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  pathPrefix: "/shellmustfalluk",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
