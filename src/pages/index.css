@@ -1,3 +1,13 @@
 body {
   background-color: black;
+  font-family: 'katwijk mono bold', serif;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'katwijk mono bold';
+  src: url('../fonts/katwijk-mono/katwijk-mono-bold-web.woff2') format('woff2'),
+    url('../fonts/katwijk-mono/katwijk-mono-bold-web.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
