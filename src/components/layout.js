@@ -12,7 +12,7 @@ import styled from "styled-components";
 const LayoutContainer = styled.div`
    {
     margin: 0 auto;
-    max-width: 585px;
+    max-width: 500px;
     padding: 0px 1.0875rem 1.45rem;
     padding-top: 0;
   }

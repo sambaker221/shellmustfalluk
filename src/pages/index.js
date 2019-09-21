@@ -8,7 +8,7 @@ import "./index.css";
 import styled from "styled-components";
 
 const ImageContainer = styled.div`
-  max-width: 300px;
+  max-width: 250px;
   margin: 0 auto;
   padding-top: 2rem;
 `;
